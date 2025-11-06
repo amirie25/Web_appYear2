@@ -11,7 +11,7 @@ const RAW_RUNTIME_STATE =
   ],\
   "dependencyTreeRoots": [\
     {\
-      "name": "root-workspace-0b6124",\
+      "name": "your-project-name",\
       "reference": "workspace:."\
     }\
   ],\
@@ -19,7 +19,7 @@ const RAW_RUNTIME_STATE =
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "pnpZipBackend": "libzip",\
   "fallbackExclusionList": [\
-    ["root-workspace-0b6124", ["workspace:."]]\
+    ["your-project-name", ["workspace:."]]\
   ],\
   "fallbackPool": [\
   ],\
@@ -28,16 +28,38 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["root-workspace-0b6124", "workspace:."]\
+          ["bootstrap-icons", "npm:1.13.1"],\
+          ["tailwindcss", "npm:4.1.17"],\
+          ["your-project-name", "workspace:."]\
         ],\
         "linkType": "SOFT"\
       }]\
     ]],\
-    ["root-workspace-0b6124", [\
+    ["bootstrap-icons", [\
+      ["npm:1.13.1", {\
+        "packageLocation": "../home/node/.yarn/berry/cache/bootstrap-icons-npm-1.13.1-ea10677638-10c0.zip/node_modules/bootstrap-icons/",\
+        "packageDependencies": [\
+          ["bootstrap-icons", "npm:1.13.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tailwindcss", [\
+      ["npm:4.1.17", {\
+        "packageLocation": "../home/node/.yarn/berry/cache/tailwindcss-npm-4.1.17-f53d7133ed-10c0.zip/node_modules/tailwindcss/",\
+        "packageDependencies": [\
+          ["tailwindcss", "npm:4.1.17"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["your-project-name", [\
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["root-workspace-0b6124", "workspace:."]\
+          ["bootstrap-icons", "npm:1.13.1"],\
+          ["tailwindcss", "npm:4.1.17"],\
+          ["your-project-name", "workspace:."]\
         ],\
         "linkType": "SOFT"\
       }]\
