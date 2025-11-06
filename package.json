@@ -10,5 +10,8 @@
         "bootstrap-icons": "^1.13.1",
         "tailwindcss": "^4.1.17"
     },
-    "packageManager": "yarn@4.10.3"
+    "packageManager": "yarn@4.10.3",
+    "devDependencies": {
+        "vite": "^7.2.1"
+    }
 }
