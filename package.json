@@ -3,15 +3,24 @@
     "private": true,
     "version": "1.6.4",
     "type": "module",
+    "engines": {
+        "node": "^20.19.0 || >=22.12.0"
+    },
     "scripts": {
-        "list": "ls -a"
+        "list": "ls -a",
+        "dev": "vite --host",
+        "build": "vite build",
+        "preview": "vite preview"
     },
     "dependencies": {
         "bootstrap-icons": "^1.13.1",
-        "tailwindcss": "^4.1.17"
+        "tailwindcss": "^4.1.17",
+        "vue": "^3.5.22"
     },
     "packageManager": "yarn@4.10.3",
     "devDependencies": {
-        "vite": "^7.2.1"
+        "@vitejs/plugin-vue": "^6.0.1",
+        "vite": "^7.2.1",
+        "vite-plugin-vue-devtools": "^8.0.3"
     }
 }

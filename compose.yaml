@@ -1,6 +1,7 @@
 services:
   app:
     build: .docker
+    command: yarn dev
     stdin_open: true
     tty: true
     environment:
