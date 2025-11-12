@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../component/Home.vue'
-import NewAppointment from '../component/NewAppointment.vue'
-import CancelAppointment from '../component/CancelAppointment.vue'
-import Account from '../component/Account.vue'
+import Home from '../component/pages/Home.vue'
+import NewAppointment from '../component/pages/NewAppointment/NA_County.vue'
+import CancelAppointment from '../component/pages/CancelAppointment/CA_Email.vue'
+import Account from '../component/pages/Account.vue'
 const routes = [
   { path: '/', name: 'Home', component: Home },
   { path: '/new-appointment', name: 'NewAppointment', component: NewAppointment },

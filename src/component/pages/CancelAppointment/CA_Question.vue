@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <h1>Please select the county</h1>
+    <h1>We need some information!</h1>
   </div>
 </template>
 
