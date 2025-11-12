@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <h1>Welcome to the Appointment System</h1>
+    <h1>Book a New Appointment</h1>
   </div>
 </template>
 

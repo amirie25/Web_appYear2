@@ -14,7 +14,8 @@
     "dependencies": {
         "bootstrap-icons": "^1.13.1",
         "tailwindcss": "^4.1.17",
-        "vue": "^3.5.22"
+        "vue": "^3.5.22",
+        "vue-router": "4"
     },
     "packageManager": "yarn@4.10.3",
     "devDependencies": {
