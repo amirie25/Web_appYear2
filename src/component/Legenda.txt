@@ -1,0 +1,6 @@
+Aici voi scrie detalii despre ce inseamna fiecare 
+prescurtare pentru a se putea sti in viitor
+
+1. CA = Cancel Appointment
+2. FP = Forgotten Password
+3. NA = New Appointment
