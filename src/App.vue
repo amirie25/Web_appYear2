@@ -17,7 +17,7 @@
 .menu {
   display: flex;
   justify-content: center;
-  background-color: #004aad;
+  background-color: #a5b3ff;
   padding: 12px;
 }
 .link {
