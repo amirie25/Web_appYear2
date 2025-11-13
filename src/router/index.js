@@ -6,6 +6,7 @@ import Account from '../component/pages/Account.vue'
 
 import CAPassword from '../component/pages/CancelAppointment/CA_Password.vue'
 
+import CASuccessful from '../component/pages/CancelAppointment/CA_Successful.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -14,6 +15,8 @@ const routes = [
   { path: '/account', name: 'Account', component: Account },
 
   { path: '/cancel-appointment/password', name: 'CAPassword', component: CAPassword },
+
+  { path: '/cancel-appointment/successful', name: 'CASuccessful', component: CASuccessful },
 ]
 
 const router = createRouter({
